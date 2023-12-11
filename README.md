@@ -4,10 +4,6 @@ The <span style="color: #00FF00">VLC_shuffle_player</span>, is a python program 
 
 [^1]: **Summary**: It's a python program, that takes as input files that are playable by vlc, when executing it opens the vlc program to play a list with a random order of the files playable by vlc that it took as input.
 
-> [!WARNING]
-> Once you generate the xspf file, you will not be able to change the directory of the songs.
->If you moved the songs to another directory, to get <span style="color: #00FF00">VLC_shuffle_player</span> working again, you must recreate the xspf file and move it back to the corresponding directory.
-
 <br>
 
 <br>
@@ -23,6 +19,10 @@ The <span style="color: #00FF00">VLC_shuffle_player</span>, is a python program 
 1. <span style="color: #6699FF">"Play"</span>.
 
 1. <span style="color: #6699FF">"Media"</span> + <span style="color: #6699FF">"Safe list reproduction"</span>, and you specify the name,(that in this case of use, you need to put the name of `list_songs.xspf` ).
+
+> [!WARNING]
+> Once you generate the xspf file, you will not be able to change the directory of the songs.
+>If you moved the songs to another directory, to get <span style="color: #00FF00">VLC_shuffle_player</span> working again, you must recreate the xspf file and move it back to the corresponding directory.
 
 <br>
 
@@ -82,8 +82,8 @@ $ cd ~/Esritorio/VLC_shuffle_player/
 
 ## Requirements
 
-- Programas
-  -
+- ### Programs :
+  
   - VLC
 
     - >verify:
@@ -107,22 +107,5 @@ $ cd ~/Esritorio/VLC_shuffle_player/
         ```bash
         $ sudo apt install python3
         ```
-
-<br>
-
-- Cumplir los requisitos de los paquetes instalados de __enviroment.yml__:
-  -
-  - VLC
-  - python3
-  -
-  -
-  -
-
-<br>
-
-<br>
-
-<br>
-
 
 > author: ___Pablo Barahona Cerviño___
