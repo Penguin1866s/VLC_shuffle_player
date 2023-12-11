@@ -18,7 +18,7 @@ The <span style="color: #00FF00">VLC_shuffle_player</span>, is a python program 
 
 1. <span style="color: #6699FF">"Play"</span>.
 
-1. <span style="color: #6699FF">"Media"</span> + <span style="color: #6699FF">"Safe list reproduction"</span>, and you specify the name,(that in this case of use, you need to put the name of `list_songs.xspf` ).
+1. <span style="color: #6699FF">"Media"</span> + <span style="color: #6699FF">"Safe list reproduction"</span>, and you specify the name,(that in this case of use, you need to put the name of `list_songs.xspf`, in the directory `~/Escritorio/VLC_shuffle_player/`).
 
 > [!WARNING]
 > Once you generate the xspf file, you will not be able to change the directory of the songs.
