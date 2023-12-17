@@ -1,3 +1,17 @@
+
+> [!IMPORTANT]
+> This program is documented on how to make use of it in Linux..
+
+# Index
+
+- [**About**](#about)
+- [**Use**](#use)
+  - [**Generate archive.xspf**](#generate-archivexspf)
+  - [**Execution**](#execution)
+- [**Time invested**](#time-invested)
+- [**Application architecture**](#application-architecture)
+- [**Requirements**](#requirements)
+
 # About
 
 The <span style="color: #00FF00">VLC_shuffle_player</span>, is a python program that, with the xspf file you provide, generates a random playback order of the songs that are referenced by the xspf file, and then opens a VLC window, and plays the random playlist that has been temporarily generated[^1].
@@ -9,6 +23,8 @@ The <span style="color: #00FF00">VLC_shuffle_player</span>, is a python program 
 <br>
 
 <br>
+
+# Use
 
 ## Generate archive.xspf
 
@@ -26,7 +42,7 @@ The <span style="color: #00FF00">VLC_shuffle_player</span>, is a python program 
 
 <br>
 
-## Use
+## Execution
 
 1. Create folder where you will execute the <span style="color: #00FF00">VLC_shuffle_player</span> program :
 
@@ -62,21 +78,21 @@ $ /bin/python ~/Escritorio/VLC_shuffle_player/VLC_shuffle_player.py
 
 <br>
 
+## Time invested
+
+![Cheese_diagram](./time_inverted_VLC_shuffle_player.png)
+
+![Vertical_diagram](./time_inverted_VLC_shuffle_player_vertical.png)
+
+In total where ___31 hours___, and ___15 minutes___.
+
 <br>
 
+<br>
 
+## Application architecture
 
-## Paths
-
-#### Path execution :
-
-`~/Escritorio/VLC_shuffle_player/`
-
-```bash
-$ cd ~/Esritorio/VLC_shuffle_player/
-```
-
-
+![Architecture_aplication](./Architecture_VLC_shuffle_player.png)
 
 <br>
 
@@ -85,27 +101,13 @@ $ cd ~/Esritorio/VLC_shuffle_player/
 - ### Programs :
   
   - VLC
-
-    - >verify:
-        ```bash
-        $ vlc --version
-        ```
-
-    - >install:
-        ```bash
-        $ sudo apt install vlc
-        ```
-
   - Python3
 
-    - >verify:
-        ```bash
-        $ python3 --version
-        ```
+>Verify than the programs are instaled --> `$ [name_program] --version`
 
-    - >install:
-        ```bash
-        $ sudo apt install python3
-        ```
+>Install programs --> `$ sudo apt install [name_program]`
+
+
+<br>
 
 > author: ___Pablo Barahona Cerviño___
