@@ -122,4 +122,4 @@ In total where ___31 hours___, and ___15 minutes___.
 
 <br>
 
-> author: ___Pablo Barahona Cerviño___
+> author: ___Penguin1866s___
